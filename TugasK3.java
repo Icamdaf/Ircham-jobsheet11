@@ -13,9 +13,15 @@ public class TugasK3 {
 
         for (int i = 1; i <= N; i++) {
             for (int j = 1; j <= N; j++) {
-                System.out.print(N + " ");
+                if (i > 1 && i < N && j > 1 && j < N) {
+                    
+                    System.out.print("  ");
+                } else {
+                    
+                    System.out.print(N + " ");
+                }
             }
             System.out.println();
-        }
-    }
+        }
+    }
 }
