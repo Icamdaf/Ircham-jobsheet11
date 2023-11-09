@@ -7,7 +7,7 @@ public class Square {
    System.out.print("Masukkan nilai n = ");
    int N = Scan20.nextInt();
   for ( int iOuter = 1; iOuter <= N; iOuter++ ) {
-     for (int i = 1; i <= N; i++) {
+     for (int i = 0; i <= N; i++) {
     System.out.print("*");
    }
 System.out.println();
